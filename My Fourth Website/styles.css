@@ -1,0 +1,197 @@
+
+
+body{
+    margin: 0;
+   padding: 0;
+  
+   background: linear-gradient(45deg, rgb(28, 161, 228), rgb(109, 19, 174));
+}
+
+ header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 6.25rem;
+} 
+
+header ul li{
+   padding: 0.9375rem;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+header{
+    height: 5rem;
+    cursor: pointer;
+    color: rgb(60, 70, 70);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    font-size: 1.875rem;
+    background: linear-gradient(45deg, rgb(201, 231, 33), rgb(178, 190, 200));
+}
+
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(63, 57, 57);
+    text-align: center;
+}
+
+
+#logo a{
+    color: rgb(60, 70, 70);
+    text-decoration: none;
+    margin-left: 9.375rem;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+
+
+#latest-products{
+     width: 50%;
+     margin: 3.125rem auto;
+}
+
+#latest-products ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.food-item{
+    width: 100%;
+    background-color: rgb(228, 206, 182);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.food-item img{
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.food-item-content {
+    font-family: 'Open Sans', sans-serif;
+    padding: 1rem;
+    text-align: center;
+}
+ 
+.cart{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5625rem;
+}
+
+.add{
+    background-color: rgb(255, 255, 0);
+    padding: 0.625rem;
+    text-align: center;
+    width: 9.375rem;
+    margin: 0 auto;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+
+
+.menu-btn {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 1rem;
+  display: none;
+}
+
+
+.menu-btn span{
+    width: 100%;
+    height: 0.3rem;
+   background-color: white;
+   
+
+}
+
+#side-drawer {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+   position: fixed;
+    top: 0;
+    left: 0; 
+    display: none;
+}
+
+#side-drawer:target{
+    display: block;
+}
+
+
+#side-drawer header{
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    padding: 0;
+   
+}
+
+#side-drawer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 4rem 1rem;
+}
+
+#side-drawer ul li{
+    margin: 1rem 0;
+}
+
+#side-drawer ul li a{
+    text-decoration: none;
+    color: rgb(253 , 239, 213);
+    font-size: 1.5rem;
+}
+
+
+
+@media(max-width: 73.0625rem){
+    #latest-products ul{
+        grid-template-columns: 100%;
+    }
+
+    header ul{
+        display: none;
+    }
+
+    header{
+        background: black;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    #logo a{
+        margin: 0;
+        margin-left: 1rem;
+    }
+
+    .menu-btn{
+        display: flex;
+    }
+   
+}
+
