@@ -1,0 +1,18 @@
+
+<article class="product-item">
+ <img src="<%= product.imageUrl %>" alt="<%= product.title %>">
+<h2><%= product.title %></h2>
+<div>
+
+     <% if (locals.isAdmin) { %>
+          <a class="view" href="/admin/products/<%= product.id %>">View & Edit</a>
+          <button class="btn del" data-productid="<%= product.id %>"  data-csrf="<%= locals.csrfToken %>">Delete</button>
+        
+     <% } else { %> 
+          <a class="view" href="/products/<%= product.id %>">View Details</a>   
+
+          <% } %>
+     
+</div>
+
+</article>

@@ -1,0 +1,51 @@
+form{
+   
+   font-size: 1.5rem;
+   color: black;
+   margin-bottom: 2.5rem;
+  
+   box-shadow: 3px 4px 8px rgb(0, 0, 0);
+}
+
+form input, textarea{
+  display: block;
+  font: inherit;
+  width: 90%;
+  height: 2.5rem;
+  margin-top: 1rem;
+  margin: 0 auto;
+  border-radius: 4px;
+   border: none;
+   font-size: 1.5rem;
+}
+
+form label{
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form hr{
+  margin: 0.5rem;
+  background-color: white;
+  
+}
+
+.btn{
+  margin-bottom: 0;
+}
+
+
+#login-btn:hover,
+#login-btn:active{
+  color: rgb(222, 199, 199);
+}
+
+
+#signup-btn:hover,
+#signup-btn:active{
+  color: rgb(222, 199, 199);
+}
+
+
+
+

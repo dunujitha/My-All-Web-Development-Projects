@@ -1,0 +1,114 @@
+.cart-item{
+ display: flex;
+ flex-direction: column;
+ background: linear-gradient(45deg, rgb(23, 74, 66), rgb(75, 189, 199));
+ padding: 1.5rem;
+ margin: 1rem 0;
+ border-radius: 4px;
+
+}
+
+
+.cart-item h2{
+  font-size: 1.7rem;
+  margin: 0;
+  color: white;
+}
+
+
+.cart-item input{
+  font: inherit;
+  padding: 0.8rem;
+  border-radius: 4px;
+  border: none;
+}
+
+
+.cart-product-price{
+  font-style: italic;
+  color: rgb(234, 226, 16);
+}
+
+.cart-item-info{
+  margin-left: 2rem;
+}
+
+.cart-item-info p{
+  font-size: 1.5rem;
+}
+
+.cart-item-management{
+  margin: 1.5rem;
+  padding: 1.5rem;
+}
+
+.cart-item-management button{
+   padding: 0.8rem;
+   background-color: yellow;
+   border-radius: 4px;
+   border: none;
+   cursor: pointer;
+   font: inherit;
+   font-size: 1.2rem;
+}
+
+.cart-item-management button:hover,
+.cart-item-management button:active{
+  background-color: rgb(204, 204, 102);
+}
+
+
+#cart-total{
+  margin: 2rem 1.5rem;
+}
+
+#cart-total button{
+          padding: 0.8rem;
+          background-color: rgb(0, 0, 0);
+          border-radius: 4px;
+          border: none;
+          cursor: pointer;
+          font: inherit;
+          font-size: 1.2rem;
+          color: white;
+}
+
+#cart-total button:hover,
+#cart-total button:active{
+  background-color: rgb(70, 65, 65);
+}
+
+
+#cart-total p{
+  font: inherit;
+  font-size: 1.5rem; 
+}
+
+#cart-total{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#cart-total-fallback{
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+
+
+@media(min-width: 48rem){
+   .cart-item{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+   }  
+   
+   #cart-total{
+    flex-direction: row;
+    justify-content: space-between;
+   
+        }
+}
