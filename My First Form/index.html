@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+   
+    <form action="">
+        <label for="text">Your Name</label>
+        <input type="text" name="text" id="text" required>
+
+        <label for="message">Your Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+        <label for="email">Your E-mail</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="age">Your Age</label>
+        <input type="number" name="age" id="age" required>
+
+        <label for="password">Your Password</label>
+        <input type="password" name="password" id="password" required minlength="6">
+
+        <label for="date">Your Birthday</label>
+        <input type="date" name="date" id="date">
+
+        <hr>
+
+        <label for="color">Your favourite color?</label>
+        <select name="color" id="color">
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="red">Red</option>
+        </select>
+
+        <h2>How should we verify your account?</h2>
+        <div class="very">
+            <input type="radio" name="verify" id="sms" value="via message">
+            <label for="sms">Via text message (SMS)</label>
+        </div>
+       
+
+        <div class="very">
+            <input type="radio" name="verify" id="call" value="via call">
+            <label for="call">Via a phone call</label>
+        </div>
+       
+
+        <div class="very">
+            <input type="radio" name="verify" id="v-email" value="via email">
+            <label for="v-email">Via an email</label>
+        </div>
+
+
+
+
+        <div class="very">
+            <input type="checkbox" id="checkbox" name="terms">
+            <label for="checkbox">Agree to terms?</label>
+        </div>
+      
+        <button>Submit</button>
+    </form>
+  
+   
+    
+
+</body>
+
+</html>
