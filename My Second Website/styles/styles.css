@@ -1,0 +1,101 @@
+header img{
+    width: 15.625rem;
+    height: auto;
+    margin-top: -1.5rem;
+    padding-top: 0;
+}
+
+
+header h1{
+    color: blueviolet;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+
+header{
+    margin: 2rem;
+    text-align: center;
+}
+
+
+main{
+    background-color: blueviolet;
+    width: 50rem;
+    margin: 1rem auto 3.5rem auto;
+    margin-top: -3rem;
+    padding: 2rem;
+    border-radius: 6px;
+    color: white;
+}
+
+
+main ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+main ul li{
+    margin: 1rem;
+    padding-left: 0.625rem;
+    border-left: 5px solid transparent;
+}
+
+main ul li span{
+    width: 150px
+}
+
+#do_not {
+    font-weight: bold;
+    font-size: 1.05rem;
+}
+
+main a{
+    background-color: rgb(255, 237, 177);
+    color: black;
+    padding: 0.2rem;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+
+main a:hover, main a:active{
+    background-color: rgb(250, 201, 39);
+}
+
+
+.dash{
+    color: rgb(250, 250, 5);
+    border-left: 5px solid rgb(247, 209, 85);
+}
+
+footer{
+    text-align: center;
+    color: rgb(131, 113, 149);
+}
+
+footer a{
+    background-color: yellow;
+    width: 12.5rem;
+    margin: 2rem auto 2rem auto;
+    padding: 0.5rem;
+    border-radius: 6px;
+    margin-bottom: 0.2rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover,
+a:active{
+    background-color: rgb(250, 201, 39);
+}
+
+
+#copy{
+    margin-bottom: 2rem;
+}
