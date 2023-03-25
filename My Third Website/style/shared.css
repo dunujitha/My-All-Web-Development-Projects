@@ -1,0 +1,83 @@
+body {
+          margin: 0;
+          font-family: 'Qicksand', sans-serif;
+}
+
+
+#logo a {
+          padding: 0.625rem;
+          font-family: 'Oleo Script', sans-serif;
+          color: rgb(245, 243, 160);
+          font-size: 3.125rem;
+          text-decoration: none;
+          text-transform: uppercase;
+          text-shadow: 1px 1px 2px rgb(0, 0, 0);
+
+}
+
+header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          position: absolute;
+          width: 100%;
+          box-sizing: border-box;
+
+}
+
+
+header ul {
+          list-style: none;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-right: 2rem;
+}
+
+header ul li {
+          margin: 1rem;
+          padding: 1rem;
+          text-align: right;
+}
+
+
+
+header ul li a {
+          text-decoration: none;
+          background-color: yellow;
+         padding: 0.45rem;
+         border-radius: 4px;
+}
+
+header ul li a:hover,
+header ul li a:active
+{
+          background-color: rgb(227, 227, 70);
+}
+
+
+footer{
+          background: linear-gradient(45deg, rgb(22, 36, 35), rgb(119, 125, 125));
+         padding: 10px;
+          
+}
+
+footer ul{
+          display: flex;
+          justify-content: center;
+          
+}
+
+footer ul li{
+          
+         width:80px;
+         height: 80px;
+         margin: 0 50px;
+}
+
+
+footer ul li a img{
+          width: 100%;
+          height: 100%;
+}
+
