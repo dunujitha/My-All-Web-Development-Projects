@@ -1,0 +1,64 @@
+main{
+          background-color: rgb(227, 155, 129);
+          width: 62.5rem;
+          margin: 8rem auto 2.5rem auto;
+          padding: 1rem;
+          border-radius: 6px;
+          height: 31.25rem;
+          border: 5px solid rgb(44, 44, 44);
+          box-shadow: 1px 1px 1px rgb(0, 0, 0, 0.3);
+          
+}
+
+footer{
+          margin-bottom: 3rem;
+     }
+     
+
+main h1{
+          color: rgb(124, 54, 16);
+          font-weight: bold;
+          font-size: 2rem;
+          
+}
+
+
+main p{
+          font-family: 'Fira Sans', sans-serif;
+        
+}
+
+
+main a{
+          text-decoration: none;
+          border-radius: 3px;
+          padding: 0.1rem;
+          margin: 0.2rem;
+          
+}
+
+main a:hover{
+          background-color: rgb(222, 229, 147);
+          text-decoration: underline;
+           
+          
+}
+
+
+img{
+          width: 15rem;
+          height:15rem;
+          border-radius: 50%;
+          margin-top: -8rem;
+          border: 5px solid rgb(44, 44, 44);
+}
+
+#second {
+          font-size: 1rem;
+}
+
+#first{
+          margin: auto 2.5rem;
+          padding: auto 2.5rem;
+          font-size: 3rem;
+}

@@ -1,0 +1,19 @@
+body{
+          margin: 0;
+          padding: 0;
+          background-color: rgb(255, 255, 255);
+          text-align: center;
+          font-family:'Fira Sans' ,sans-serif;
+}
+
+main{
+         
+          /* background-color: rgb(255, 234, 164); */
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+          color: rgb(74, 87, 95);
+           font-size: 1.5rem;
+}
+
+
+
