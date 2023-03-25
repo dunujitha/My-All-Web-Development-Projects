@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Second <Form></Form></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <header>
+    <h1>Contact Us</h1>
+   </header>
+
+   <main>
+    <form action="">
+        <h2>How can we help you ?</h2>
+
+        <label for="name">You Name</label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="email">Your E-Mail Address</label>
+        <input type="email" name="email" id="email" required>
+
+       <label for="phone">Your Phone Number</label>
+        <input type="tel" name="phone" id="phone" required>
+        
+        <label for="message">You Message</label>
+        <textarea name="message" id="message" cols="6" rows="6" required></textarea>
+
+        <label for="find">How did you find us?</label>
+        <select name="find" id="find">
+            <option value="facebook">Facebook</option>
+            <option value="google">Google</option>
+            <option value="friend">Friend</option>
+        </select>
+
+       <h2>How should we reply?</h2>
+       <div class="contact">
+        <input type="radio" name="call" id="call">
+        <label for="call">Call me</label>
+ 
+       </div>
+       <div class="contact">
+        <input type="radio" name="call" id="send-email">
+        <label for="send-email">Send me an email</label>
+       </div>
+       
+      <div class="contact">
+        <input type="checkbox" name="call" id="agree">
+        <label for="agree">Accept Terms</label>
+      </div>
+       
+
+      <div id="btn">
+        <button id="clear">Clear</button>
+        <button id="submit">Submit</button>
+      </div>
+    </form>
+   </main>
+
+
+    
+</body>
+</html>
