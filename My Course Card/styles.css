@@ -1,0 +1,109 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+#card{
+    width: 275px;
+    margin: 150px auto 0 auto; 
+    box-sizing: border-box;
+    box-shadow: 2px 4px 8px rgb(106, 112, 115);
+}
+
+
+#card-content{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(221, 217, 210);
+}
+
+#title{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(45, 41, 52);
+    font-weight: bold;
+    text-align: left;
+    margin: 0 30px;
+}
+
+
+#para{
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 100;
+    color: rgb(122, 117, 117);
+    text-align: left;
+    padding:0 1.6rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+#para1{
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 100;
+    color: rgb(122, 117, 117);
+    text-align: center;
+    padding:0 1.6rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+   position: relative;
+   top: -10px;
+}
+
+#payment {
+    font-family: 'Roboto' , sans-serif;
+    background-color: rgb(141, 241, 241);
+    text-align: center;
+   width: 100%;
+   height: 70px;
+   color: rgb(50, 49, 49); 
+   font-weight: bold; 
+   font-size: 50px;
+   margin: 0;
+   padding: 0 ;
+   position: relative;
+   top: -20px;
+}
+
+#payment:hover{
+   transform: scale(1.04);
+}
+
+ul{
+    font-family: 'Roboto' , sans-serif;
+    list-style: none;
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(79, 75, 75);
+}
+
+ul li{
+    margin: 0.4rem;
+}
+
+#btn{
+    margin: 1.5rem 0;
+    background-color: rgb(64, 60, 60);
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0.1px;
+    height: 50px;
+    font-weight: bold;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 15px;
+    color: rgb(67, 225, 225);
+    border-radius: 4px;
+    border-color: rgb(2, 2, 2);
+    cursor: pointer;
+}
+
+#btn:hover{
+    transform: scale(1.04);
+}
+
+
